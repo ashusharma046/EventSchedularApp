@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9CB8C470149E484800766AF6 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CB8C46F149E484800766AF6 /* Event.m */; };
+		9CD6E801149F04C8005EA155 /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6E800149F04C8005EA155 /* EventCell.m */; };
+		9CD6E804149F04FC005EA155 /* EventViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CD6E803149F04FC005EA155 /* EventViewController.m */; };
+		9CDA9B8B149E250A003A8967 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA9B8A149E250A003A8967 /* UIKit.framework */; };
+		9CDA9B8D149E250A003A8967 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA9B8C149E250A003A8967 /* Foundation.framework */; };
+		9CDA9B8F149E250A003A8967 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA9B8E149E250A003A8967 /* CoreGraphics.framework */; };
+		9CDA9B91149E250A003A8967 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDA9B90149E250A003A8967 /* CoreData.framework */; };
+		9CDA9B97149E250A003A8967 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA9B95149E250A003A8967 /* InfoPlist.strings */; };
+		9CDA9B99149E250A003A8967 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9B98149E250A003A8967 /* main.m */; };
+		9CDA9B9D149E250B003A8967 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9B9C149E250B003A8967 /* AppDelegate.m */; };
+		9CDA9BA0149E250B003A8967 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9CDA9B9E149E250B003A8967 /* MainStoryboard.storyboard */; };
+		9CDA9BA3149E250B003A8967 /* EventSchedularApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BA1149E250B003A8967 /* EventSchedularApp.xcdatamodeld */; };
+		9CDA9BA6149E250B003A8967 /* MainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BA5149E250B003A8967 /* MainViewController.m */; };
+		9CDA9BA9149E250B003A8967 /* FlipsideViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9CDA9BA8149E250B003A8967 /* FlipsideViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		9CB8C46E149E484800766AF6 /* Event.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Event.h; sourceTree = "<group>"; };
+		9CB8C46F149E484800766AF6 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Event.m; sourceTree = "<group>"; };
+		9CB8C475149E4D3800766AF6 /* EventSchedularApp 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "EventSchedularApp 2.xcdatamodel"; sourceTree = "<group>"; };
+		9CD6E7FE149F04BF005EA155 /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		9CD6E800149F04C8005EA155 /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
+		9CD6E802149F04F7005EA155 /* EventViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventViewController.h; sourceTree = "<group>"; };
+		9CD6E803149F04FC005EA155 /* EventViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventViewController.m; sourceTree = "<group>"; };
+		9CDA9B86149E250A003A8967 /* EventSchedularApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EventSchedularApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9CDA9B8A149E250A003A8967 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		9CDA9B8C149E250A003A8967 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		9CDA9B8E149E250A003A8967 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		9CDA9B90149E250A003A8967 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		9CDA9B94149E250A003A8967 /* EventSchedularApp-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "EventSchedularApp-Info.plist"; sourceTree = "<group>"; };
+		9CDA9B96149E250A003A8967 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		9CDA9B98149E250A003A8967 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9CDA9B9A149E250A003A8967 /* EventSchedularApp-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "EventSchedularApp-Prefix.pch"; sourceTree = "<group>"; };
+		9CDA9B9B149E250A003A8967 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9CDA9B9C149E250B003A8967 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9CDA9B9F149E250B003A8967 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
+		9CDA9BA2149E250B003A8967 /* EventSchedularApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = EventSchedularApp.xcdatamodel; sourceTree = "<group>"; };
+		9CDA9BA4149E250B003A8967 /* MainViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewController.h; sourceTree = "<group>"; };
+		9CDA9BA5149E250B003A8967 /* MainViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewController.m; sourceTree = "<group>"; };
+		9CDA9BA7149E250B003A8967 /* FlipsideViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FlipsideViewController.h; sourceTree = "<group>"; };
+		9CDA9BA8149E250B003A8967 /* FlipsideViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FlipsideViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9CDA9B83149E250A003A8967 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA9B8B149E250A003A8967 /* UIKit.framework in Frameworks */,
+				9CDA9B8D149E250A003A8967 /* Foundation.framework in Frameworks */,
+				9CDA9B8F149E250A003A8967 /* CoreGraphics.framework in Frameworks */,
+				9CDA9B91149E250A003A8967 /* CoreData.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9C84E53814A0704300BD8095 /* Model Class */ = {
+			isa = PBXGroup;
+			children = (
+				9CD6E7FE149F04BF005EA155 /* EventCell.h */,
+				9CD6E800149F04C8005EA155 /* EventCell.m */,
+			);
+			name = "Model Class";
+			sourceTree = "<group>";
+		};
+		9C84E53B14A0706300BD8095 /* Controller Class */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9BA4149E250B003A8967 /* MainViewController.h */,
+				9CDA9BA5149E250B003A8967 /* MainViewController.m */,
+				9CD6E802149F04F7005EA155 /* EventViewController.h */,
+				9CD6E803149F04FC005EA155 /* EventViewController.m */,
+				9CDA9BA7149E250B003A8967 /* FlipsideViewController.h */,
+				9CDA9BA8149E250B003A8967 /* FlipsideViewController.m */,
+			);
+			name = "Controller Class";
+			sourceTree = "<group>";
+		};
+		9CDA9B7B149E250A003A8967 = {
+			isa = PBXGroup;
+			children = (
+				9CDA9B92149E250A003A8967 /* EventSchedularApp */,
+				9CDA9B89149E250A003A8967 /* Frameworks */,
+				9CDA9B87149E250A003A8967 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		9CDA9B87149E250A003A8967 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9B86149E250A003A8967 /* EventSchedularApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9CDA9B89149E250A003A8967 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9B8A149E250A003A8967 /* UIKit.framework */,
+				9CDA9B8C149E250A003A8967 /* Foundation.framework */,
+				9CDA9B8E149E250A003A8967 /* CoreGraphics.framework */,
+				9CDA9B90149E250A003A8967 /* CoreData.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDA9B92149E250A003A8967 /* EventSchedularApp */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9B9B149E250A003A8967 /* AppDelegate.h */,
+				9CDA9B9C149E250B003A8967 /* AppDelegate.m */,
+				9CDA9B9E149E250B003A8967 /* MainStoryboard.storyboard */,
+				9C84E53814A0704300BD8095 /* Model Class */,
+				9C84E53B14A0706300BD8095 /* Controller Class */,
+				9CDA9BA1149E250B003A8967 /* EventSchedularApp.xcdatamodeld */,
+				9CB8C46E149E484800766AF6 /* Event.h */,
+				9CB8C46F149E484800766AF6 /* Event.m */,
+				9CDA9B93149E250A003A8967 /* Supporting Files */,
+			);
+			path = EventSchedularApp;
+			sourceTree = "<group>";
+		};
+		9CDA9B93149E250A003A8967 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9CDA9B94149E250A003A8967 /* EventSchedularApp-Info.plist */,
+				9CDA9B95149E250A003A8967 /* InfoPlist.strings */,
+				9CDA9B98149E250A003A8967 /* main.m */,
+				9CDA9B9A149E250A003A8967 /* EventSchedularApp-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9CDA9B85149E250A003A8967 /* EventSchedularApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9CDA9BAC149E250B003A8967 /* Build configuration list for PBXNativeTarget "EventSchedularApp" */;
+			buildPhases = (
+				9CDA9B82149E250A003A8967 /* Sources */,
+				9CDA9B83149E250A003A8967 /* Frameworks */,
+				9CDA9B84149E250A003A8967 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EventSchedularApp;
+			productName = EventSchedularApp;
+			productReference = 9CDA9B86149E250A003A8967 /* EventSchedularApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9CDA9B7D149E250A003A8967 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 9CDA9B80149E250A003A8967 /* Build configuration list for PBXProject "EventSchedularApp" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 9CDA9B7B149E250A003A8967;
+			productRefGroup = 9CDA9B87149E250A003A8967 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9CDA9B85149E250A003A8967 /* EventSchedularApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9CDA9B84149E250A003A8967 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA9B97149E250A003A8967 /* InfoPlist.strings in Resources */,
+				9CDA9BA0149E250B003A8967 /* MainStoryboard.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9CDA9B82149E250A003A8967 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9CDA9B99149E250A003A8967 /* main.m in Sources */,
+				9CDA9B9D149E250B003A8967 /* AppDelegate.m in Sources */,
+				9CDA9BA3149E250B003A8967 /* EventSchedularApp.xcdatamodeld in Sources */,
+				9CDA9BA6149E250B003A8967 /* MainViewController.m in Sources */,
+				9CDA9BA9149E250B003A8967 /* FlipsideViewController.m in Sources */,
+				9CB8C470149E484800766AF6 /* Event.m in Sources */,
+				9CD6E801149F04C8005EA155 /* EventCell.m in Sources */,
+				9CD6E804149F04FC005EA155 /* EventViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		9CDA9B95149E250A003A8967 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDA9B96149E250A003A8967 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		9CDA9B9E149E250B003A8967 /* MainStoryboard.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9CDA9B9F149E250B003A8967 /* en */,
+			);
+			name = MainStoryboard.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9CDA9BAA149E250B003A8967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		9CDA9BAB149E250B003A8967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9CDA9BAD149E250B003A8967 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventSchedularApp/EventSchedularApp-Prefix.pch";
+				INFOPLIST_FILE = "EventSchedularApp/EventSchedularApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		9CDA9BAE149E250B003A8967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "EventSchedularApp/EventSchedularApp-Prefix.pch";
+				INFOPLIST_FILE = "EventSchedularApp/EventSchedularApp-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9CDA9B80149E250A003A8967 /* Build configuration list for PBXProject "EventSchedularApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDA9BAA149E250B003A8967 /* Debug */,
+				9CDA9BAB149E250B003A8967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9CDA9BAC149E250B003A8967 /* Build configuration list for PBXNativeTarget "EventSchedularApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9CDA9BAD149E250B003A8967 /* Debug */,
+				9CDA9BAE149E250B003A8967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		9CDA9BA1149E250B003A8967 /* EventSchedularApp.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				9CB8C475149E4D3800766AF6 /* EventSchedularApp 2.xcdatamodel */,
+				9CDA9BA2149E250B003A8967 /* EventSchedularApp.xcdatamodel */,
+			);
+			currentVersion = 9CDA9BA2149E250B003A8967 /* EventSchedularApp.xcdatamodel */;
+			path = EventSchedularApp.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 9CDA9B7D149E250A003A8967 /* Project object */;
+}
